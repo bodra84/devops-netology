@@ -1,13 +1,34 @@
-# devops-netology
-В директорию terraform добавлен файл .gitignore который исключает:
-- локальные директории Terraform (\*\*/.terraform/\*)
-- файлы состояния Terraform (\*.tfstate, \*.tfstate.\*)
-- логи сбоев (crash.log, crash.\*.log)
-- файлы .tfvars и .tfvars.json, содержащих чувствительную информацию.
-- файлы переопределения (override.tf, override.tf.json, \*_override.tf, \*_override.tf.json)
-- информацию о блокировке, созданной terraform apply (.terraform.tfstate.lock.info)
-- файлоы плана Terraform (\*tfplan\*)
-- конфигурационные файлы CLI Terraform (.terraformrc, terraform.rc).
+# Домашнее задание к занятию «Инструменты Git»
+В клонированном репозитории:
+1. Найдите полный хеш и комментарий коммита, хеш которого начинается на aefea.
+Команда:
+```
+git show aefea
+```
+Полный хеш: commit aefead2207ef7e2aa5dc81a34aedf0cad4c32545  
+Комментарий коммита: Update CHANGELOG.md
 
----
 
+2. Ответьте на вопросы.
+
+- Какому тегу соответствует коммит 85024d3?
+```
+git show 85024d3
+```
+tag: v0.12.23  
+- Сколько родителей у коммита b8d720? Напишите их хеши.  
+Команда:
+```
+git show b8d720^
+git show b8d720^2
+
+```
+У коммита 2 родителя:  
+1 родитель commit 56cd7859e05c36c06b56d013b55a252d0bb7e158  
+2 родитель commit 9ea88f22fc6269854151c571162c5bcf958bee2b
+
+
+- Перечислите хеши и комментарии всех коммитов, которые были сделаны между тегами v0.12.23 и v0.12.24.
+- Найдите коммит, в котором была создана функция func providerSource, её определение в коде выглядит так: func providerSource(...) (вместо троеточия перечислены аргументы).
+- Найдите все коммиты, в которых была изменена функция globalPluginDirs.
+- Кто автор функции synchronizedWriters?
