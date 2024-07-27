@@ -8,13 +8,14 @@
 
 ## Задание 3
 Скриншот решения:
-![Скриншот 2](img/2.png)  
-![Скриншот 3](img/3.png)  
+![Скриншот 2](img/2.png)
+![Скриншот 3](img/3.png)
 
 ## Задание 4
 Решение:  
 - Скриншот  
 ![Скриншот 4](img/4.png) 
+![Скриншот 5](img/5.png)
 - bash-скрипт [python-app.sh](file/python-app.sh)
 - [Ссылка на репозитарий](https://github.com/bodra84/shvirtd-example-python.git)
 
