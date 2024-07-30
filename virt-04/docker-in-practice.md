@@ -19,3 +19,11 @@
 - bash-скрипт [python-app.sh](file/python-app.sh)
 - [Ссылка на репозитарий](https://github.com/bodra84/shvirtd-example-python.git)
 
+## Задание 6
+Скриншот решения:
+![Скриншот 6](img/6.png)
+
+## Задание 6.1
+Скриншот решения:
+![Скриншот 6](img/7.png)
+
